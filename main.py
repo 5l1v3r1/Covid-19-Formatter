@@ -7,4 +7,4 @@ if __name__ == "__main__":
     data = Funktionen.DataLoader.get_data("Ger_LK_All", 0)
     for i in data:
         Funktionen.TableGenerator.germany_landkreis_report(i["attributes"]["GEN"], 0)
-    Funktionen.TableGenerator.generate_austria_report(i)
+    Funktionen.TableGenerator.generate_austria_report(0)
