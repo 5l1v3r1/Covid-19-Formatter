@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 
 .idea
+
+copy_germany_report.py
