@@ -1,0 +1,412 @@
++-----------------------------------+---------+-------------+
+|        Schleswig-Holstein         | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 19,334  |   16,575    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 19,334  |   16,575    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |   507   |     298     |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |   315   |     276     |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   14    |      5      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        |  2,674  |    1,705    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 92.087  |   58.717    |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          |  5,581  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |  2,002  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|              Hamburg              | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 30,559  |   27,696    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 30,559  |   27,696    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |   569   |     333     |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |   500   |     443     |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |    9    |      8      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        |  2,411  |    1,925    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 130.518 |   104.209   |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          |  2,040  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |   541   |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|           Niedersachsen           | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 88,898  |   80,894    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 88,898  |   80,894    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |  1,630  |    1,707    |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |  1,523  |    1,353    |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   41    |     54      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        |  7,294  |    6,290    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 91.248  |   78.688    |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          |  2,705  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |  1,178  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|              Bremen               | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 12,086  |   11,184    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 12,086  |   11,184    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |   221   |     211     |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |   163   |     147     |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |    3    |      5      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        |   909   |     778     |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 133.441 |   114.21    |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          |  1,691  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |   632   |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|        Nordrhein-Westfalen        | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 332,684 |   298,431   |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 332,684 |   298,431   |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |  6,003  |    3,691    |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |  4,927  |    4,226    |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   141   |     59      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        | 31,677  |   25,299    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 176.501 |   140.963   |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          | 19,930  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |  8,545  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|              Hessen               | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 113,998 |   100,900   |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 113,998 |   100,900   |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |  2,565  |    1,340    |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |  1,964  |    1,601    |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   58    |     23      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        | 11,945  |    9,486    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 189.963 |   150.857   |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          | 15,674  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |  6,226  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|          Rheinland-Pfalz          | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 59,649  |   52,149    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 59,649  |   52,149    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |  1,370  |     964     |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |   979   |     759     |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   43    |     23      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        |  6,944  |    5,643    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 169.618 |   137.839   |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          |  4,247  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |  1,963  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|         Baden-Württemberg         | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 194,357 |   174,948   |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 194,357 |   174,948   |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |   645   |    4,044    |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |  3,640  |    3,229    |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   12    |     59      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        | 17,728  |   17,790    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 159.706 |   160.265   |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          | 12,649  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |  4,407  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|              Bayern               | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 272,883 |   243,797   |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 272,883 |   243,797   |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |  5,045  |    5,355    |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |  5,309  |    4,621    |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   146   |     103     |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        | 27,627  |   24,397    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 210.496 |   185.886   |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          | 28,206  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           | 15,271  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|             Saarland              | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 16,523  |   14,643    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 16,523  |   14,643    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |   364   |     231     |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |   325   |     287     |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   12    |      1      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        |  1,664  |    1,383    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 168.611 |   140.138   |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          |  2,119  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |   601   |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|              Berlin               | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 82,253  |   74,552    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 82,253  |   74,552    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |  1,317  |    1,122    |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |   929   |     749     |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   30    |     17      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        |  6,535  |    6,447    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 178.09  |   175.692   |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          |  9,084  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |  2,788  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|            Brandenburg            | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 29,215  |   23,892    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 29,215  |   23,892    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |  1,160  |     519     |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |   605   |     444     |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   65    |      9      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        |  4,097  |    2,551    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 162.457 |   101.154   |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          |  3,036  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |  1,483  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|      Mecklenburg-Vorpommern       | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           |  8,939  |    7,351    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           |  8,939  |    7,351    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |   343   |     293     |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |   109   |     88      |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |    7    |      2      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        |  1,552  |    1,065    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 96.509  |   66.226    |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          | 11,101  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |  3,763  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|              Sachsen              | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 95,616  |   75,895    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 95,616  |   75,895    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |  3,207  |    2,128    |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |  1,923  |    1,428    |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   68    |     47      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        | 16,916  |   12,608    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 415.425 |   309.629   |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          |  2,653  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |  1,166  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|          Sachsen-Anhalt           | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 20,156  |   16,439    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 20,156  |   16,439    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |   700   |     607     |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |   318   |     242     |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   16    |     13      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        |  3,242  |    2,808    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 147.714 |   127.94    |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          | 10,100  |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |  2,813  |             |
++-----------------------------------+---------+-------------+
+
++-----------------------------------+---------+-------------+
+|             Thüringen             | Aktuell | Vor 7 Tagen |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl BL           | 29,011  |   22,857    |
++-----------------------------------+---------+-------------+
+|           Gesamtzahl LK           | 29,011  |   22,857    |
++-----------------------------------+---------+-------------+
+|     Neuinfektionen zum Vortag     |  1,277  |     836     |
++-----------------------------------+---------+-------------+
+|    Gesamtzahl der Verstorbenen    |   596   |     479     |
++-----------------------------------+---------+-------------+
+|     Neuverstorbene zum Vortag     |   33    |     12      |
++-----------------------------------+---------+-------------+
+|       Fälle in einer Woche        |  5,846  |    4,096    |
++-----------------------------------+---------+-------------+
+| Fälle pro 100k Einwohner / 7 Tage | 274.026 |   191.996   |
++-----------------------------------+---------+-------------+
+|         Impfungen Gesamt          |   810   |             |
++-----------------------------------+---------+-------------+
+|           Impfungen Neu           |   138   |             |
++-----------------------------------+---------+-------------+
+
++----------------------------------------------------+-----------+-------------+
+|                    Deutschland                     |  Aktuell  | Vor 7 Tagen |
++----------------------------------------------------+-----------+-------------+
+|               Gesamtzahl BL Aktuell                | 1,406,161 |  1,242,203  |
++----------------------------------------------------+-----------+-------------+
+|               Gesamtzahl LK Aktuell                | 1,406,161 |  1,242,203  |
++----------------------------------------------------+-----------+-------------+
+|             Neuinfektionen zum Vortag              |  26,923   |   23,679    |
++----------------------------------------------------+-----------+-------------+
+|            Gesamtzahl der Verstorbenen             |  24,125   |   20,372    |
++----------------------------------------------------+-----------+-------------+
+|             Neuverstorbene zum Vortag              |    698    |     440     |
++----------------------------------------------------+-----------+-------------+
+|           Fälle in einer Woche / 7 Tage            |  149,061  |   124,271   |
++----------------------------------------------------+-----------+-------------+
+|                  Impfungen Gesamt                  |  131,626  |             |
++----------------------------------------------------+-----------+-------------+
+|                   Impfungen Neu                    |  53,517   |             |
++----------------------------------------------------+-----------+-------------+
+| Wie viel Prozent sind Geimpft?(EWZ_ger=83,166,711) |   0.16    |             |
++----------------------------------------------------+-----------+-------------+
+
++----------------------------+---------+
+| Ranking by 7 Days Inzidenz |  Value  |
++----------------------------+---------+
+|      1. Niedersachsen      | 91.248  |
++----------------------------+---------+
+|   2. Schleswig-Holstein    | 92.087  |
++----------------------------+---------+
+| 3. Mecklenburg-Vorpommern  | 96.509  |
++----------------------------+---------+
+|         4. Hamburg         | 130.518 |
++----------------------------+---------+
+|         5. Bremen          | 133.441 |
++----------------------------+---------+
+|     6. Sachsen-Anhalt      | 147.714 |
++----------------------------+---------+
+|    7. Baden-Württemberg    | 159.706 |
++----------------------------+---------+
+|       8. Brandenburg       | 162.457 |
++----------------------------+---------+
+|        9. Saarland         | 168.611 |
++----------------------------+---------+
+|    10. Rheinland-Pfalz     | 169.618 |
++----------------------------+---------+
+|  11. Nordrhein-Westfalen   | 176.501 |
++----------------------------+---------+
+|         12. Berlin         | 178.09  |
++----------------------------+---------+
+|         13. Hessen         | 189.963 |
++----------------------------+---------+
+|         14. Bayern         | 210.496 |
++----------------------------+---------+
+|       15. Thüringen        | 274.026 |
++----------------------------+---------+
+|        16. Sachsen         | 415.425 |
++----------------------------+---------+
+
+Folgende Landkreise melden keine Neuinfektionen und keine Neuverstorbenden: SK Flensburg, SK Kiel, SK Lübeck, SK Neumünster, LK Dithmarschen, LK Herzogtum Lauenburg, LK Nordfriesland, LK Ostholstein, LK Pinneberg, LK Plön, LK Rendsburg-Eckernförde, LK Schleswig-Flensburg, LK Segeberg, LK Steinburg, LK Stormarn, SK Hamburg, SK Braunschweig, SK Salzgitter, SK Wolfsburg, LK Gifhorn, LK Goslar, LK Helmstedt, LK Northeim, LK Peine, LK Wolfenbüttel, LK Göttingen, Region Hannover, LK Diepholz, LK Hameln-Pyrmont, LK Hildesheim, LK Holzminden, LK Nienburg (Weser), LK Schaumburg, LK Celle, LK Cuxhaven, LK Harburg, LK Lüchow-Dannenberg, LK Lüneburg, LK Osterholz, LK Rotenburg (Wümme), LK Heidekreis, LK Stade, LK Uelzen, LK Verden, SK Delmenhorst, SK Emden, SK Oldenburg, SK Osnabrück, SK Wilhelmshaven, LK Ammerland, LK Aurich, LK Cloppenburg, LK Emsland, LK Friesland, LK Grafschaft Bentheim, LK Leer, LK Oldenburg, LK Osnabrück, LK Vechta, LK Wesermarsch, LK Wittmund, SK Bremen, SK Bremerhaven, SK Düsseldorf, SK Duisburg, SK Essen, SK Krefeld, SK Mönchengladbach, SK Mülheim a.d.Ruhr, SK Oberhausen, SK Remscheid, SK Solingen, SK Wuppertal, LK Kleve, LK Mettmann, LK Rhein-Kreis Neuss, LK Viersen, LK Wesel, SK Bonn, SK Köln, SK Leverkusen, StadtRegion Aachen, LK Düren, LK Rhein-Erft-Kreis, LK Euskirchen, LK Heinsberg, LK Oberbergischer Kreis, LK Rheinisch-Bergischer Kreis, LK Rhein-Sieg-Kreis, SK Bottrop, SK Gelsenkirchen, SK Münster, LK Borken, LK Coesfeld, LK Recklinghausen, LK Steinfurt, LK Warendorf, SK Bielefeld, LK Gütersloh, LK Herford, LK Höxter, LK Lippe, LK Minden-Lübbecke, LK Paderborn, SK Bochum, SK Dortmund, SK Hagen, SK Hamm, SK Herne, LK Ennepe-Ruhr-Kreis, LK Hochsauerlandkreis, LK Märkischer Kreis, LK Olpe, LK Siegen-Wittgenstein, LK Soest, LK Unna, SK Darmstadt, SK Frankfurt am Main, SK Offenbach, SK Wiesbaden, LK Bergstraße, LK Darmstadt-Dieburg, LK Groß-Gerau, LK Hochtaunuskreis, LK Main-Kinzig-Kreis, LK Main-Taunus-Kreis, LK Odenwaldkreis, LK Offenbach, LK Rheingau-Taunus-Kreis, LK Wetteraukreis, LK Gießen, LK Lahn-Dill-Kreis, LK Limburg-Weilburg, LK Marburg-Biedenkopf, LK Vogelsbergkreis, SK Kassel, LK Fulda, LK Hersfeld-Rotenburg, LK Kassel, LK Schwalm-Eder-Kreis, LK Waldeck-Frankenberg, LK Werra-Meißner-Kreis, SK Koblenz, LK Ahrweiler, LK Altenkirchen, LK Bad Kreuznach, LK Birkenfeld, LK Cochem-Zell, LK Mayen-Koblenz, LK Neuwied, LK Rhein-Hunsrück-Kreis, LK Rhein-Lahn-Kreis, LK Westerwaldkreis, SK Trier, LK Bernkastel-Wittlich, LK Bitburg-Prüm, LK Vulkaneifel, LK Trier-Saarburg, SK Frankenthal, SK Kaiserslautern, SK Landau i.d.Pfalz, SK Ludwigshafen, SK Mainz, SK Neustadt a.d.Weinstraße, SK Pirmasens, SK Speyer, SK Worms, SK Zweibrücken, LK Alzey-Worms, LK Bad Dürkheim, LK Donnersbergkreis, LK Germersheim, LK Kaiserslautern, LK Kusel, LK Südliche Weinstraße, LK Rhein-Pfalz-Kreis, LK Mainz-Bingen, LK Südwestpfalz, SK Stuttgart, LK Böblingen, LK Esslingen, LK Göppingen, LK Ludwigsburg, LK Rems-Murr-Kreis, SK Heilbronn, LK Heilbronn, LK Hohenlohekreis, LK Schwäbisch Hall, LK Main-Tauber-Kreis, LK Heidenheim, LK Ostalbkreis, SK Baden-Baden, SK Karlsruhe, LK Karlsruhe, LK Rastatt, SK Heidelberg, SK Mannheim, LK Neckar-Odenwald-Kreis, LK Rhein-Neckar-Kreis, SK Pforzheim, LK Calw, LK Enzkreis, LK Freudenstadt, SK Freiburg i.Breisgau, LK Breisgau-Hochschwarzwald, LK Emmendingen, LK Ortenaukreis, LK Rottweil, LK Schwarzwald-Baar-Kreis, LK Tuttlingen, LK Konstanz, LK Lörrach, LK Waldshut, LK Reutlingen, LK Tübingen, LK Zollernalbkreis, SK Ulm, LK Alb-Donau-Kreis, LK Biberach, LK Bodenseekreis, LK Ravensburg, LK Sigmaringen, SK Ingolstadt, SK München, SK Rosenheim, LK Altötting, LK Berchtesgadener Land, LK Bad Tölz-Wolfratshausen, LK Dachau, LK Ebersberg, LK Eichstätt, LK Erding, LK Freising, LK Fürstenfeldbruck, LK Garmisch-Partenkirchen, LK Landsberg a.Lech, LK Miesbach, LK Mühldorf a.Inn, LK München, LK Neuburg-Schrobenhausen, LK Pfaffenhofen a.d.Ilm, LK Rosenheim, LK Starnberg, LK Traunstein, LK Weilheim-Schongau, SK Landshut, SK Passau, SK Straubing, LK Deggendorf, LK Freyung-Grafenau, LK Kelheim, LK Landshut, LK Passau, LK Regen, LK Rottal-Inn, LK Straubing-Bogen, LK Dingolfing-Landau, SK Amberg, SK Regensburg, SK Weiden i.d.OPf., LK Amberg-Sulzbach, LK Cham, LK Neumarkt i.d.OPf., LK Neustadt a.d.Waldnaab, LK Regensburg, LK Schwandorf, LK Tirschenreuth, SK Bamberg, SK Bayreuth, SK Coburg, SK Hof, LK Bamberg, LK Bayreuth, LK Coburg, LK Forchheim, LK Hof, LK Kronach, LK Kulmbach, LK Lichtenfels, LK Wunsiedel i.Fichtelgebirge, SK Ansbach, SK Erlangen, SK Fürth, SK Nürnberg, SK Schwabach, LK Ansbach, LK Erlangen-Höchstadt, LK Fürth, LK Nürnberger Land, LK Neustadt a.d.Aisch-Bad Windsheim, LK Roth, LK Weißenburg-Gunzenhausen, SK Aschaffenburg, SK Schweinfurt, SK Würzburg, LK Aschaffenburg, LK Bad Kissingen, LK Rhön-Grabfeld, LK Haßberge, LK Kitzingen, LK Miltenberg, LK Main-Spessart, LK Schweinfurt, LK Würzburg, SK Augsburg, SK Kaufbeuren, SK Kempten, SK Memmingen, LK Aichach-Friedberg, LK Augsburg, LK Dillingen a.d.Donau, LK Günzburg, LK Neu-Ulm, LK Lindau, LK Ostallgäu, LK Unterallgäu, LK Donau-Ries, LK Oberallgäu, LK Stadtverband Saarbrücken, LK Merzig-Wadern, LK Neunkirchen, LK Saarlouis, LK Saar-Pfalz-Kreis, LK Sankt Wendel, SK Brandenburg a.d.Havel, SK Cottbus, SK Frankfurt (Oder), SK Potsdam, LK Barnim, LK Dahme-Spreewald, LK Elbe-Elster, LK Havelland, LK Märkisch-Oderland, LK Oberhavel, LK Oberspreewald-Lausitz, LK Oder-Spree, LK Ostprignitz-Ruppin, LK Potsdam-Mittelmark, LK Prignitz, LK Spree-Neiße, LK Teltow-Fläming, LK Uckermark, SK Rostock, SK Schwerin, LK Mecklenburgische Seenplatte, LK Rostock, LK Vorpommern-Rügen, LK Nordwestmecklenburg, LK Vorpommern-Greifswald, LK Ludwigslust-Parchim, SK Chemnitz, LK Erzgebirgskreis, LK Mittelsachsen, LK Vogtlandkreis, LK Zwickau, SK Dresden, LK Bautzen, LK Görlitz, LK Meißen, LK Sächsische Schweiz-Osterzgebirge, SK Leipzig, LK Leipzig, LK Nordsachsen, SK Dessau-Roßlau, SK Halle, SK Magdeburg, LK Altmarkkreis Salzwedel, LK Anhalt-Bitterfeld, LK Börde, LK Burgenlandkreis, LK Harz, LK Jerichower Land, LK Mansfeld-Südharz, LK Saalekreis, LK Salzlandkreis, LK Stendal, LK Wittenberg, SK Erfurt, SK Gera, SK Jena, SK Suhl, SK Weimar, SK Eisenach, LK Eichsfeld, LK Nordhausen, LK Wartburgkreis, LK Unstrut-Hainich-Kreis, LK Kyffhäuserkreis, LK Schmalkalden-Meiningen, LK Gotha, LK Sömmerda, LK Hildburghausen, LK Ilm-Kreis, LK Weimarer Land, LK Sonneberg, LK Saalfeld-Rudolstadt, LK Saale-Holzland-Kreis, LK Saale-Orla-Kreis, LK Greiz, LK Altenburger Land, SK Berlin Reinickendorf, SK Berlin Charlottenburg-Wilmersdorf, SK Berlin Treptow-Köpenick, SK Berlin Pankow, SK Berlin Neukölln, SK Berlin Lichtenberg, SK Berlin Marzahn-Hellersdorf, SK Berlin Spandau, SK Berlin Steglitz-Zehlendorf, SK Berlin Mitte, SK Berlin Friedrichshain-Kreuzberg, SK Berlin Tempelhof-Schöneberg | Das sind 412 von 412 (100.0%)
+
