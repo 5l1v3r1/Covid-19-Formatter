@@ -232,10 +232,16 @@ def germany_landkreis_report(landkreis, timedelta_local):
 
 
 def generate_austria_report(timedelta_local: int) -> None:
+    date_objekt = datetime.now() - timedelta(days=timedelta_local)
+    str_date = date_objekt.strftime("%d.%m.%Y")
+
     data = Funktionen.DataLoader.get_data("Au_Bez", 0 + timedelta_local)
     data_from_yesterday = Funktionen.DataLoader.get_data("Au_Bez", 1 + timedelta_local)
     data_from_7_days = Funktionen.DataLoader.get_data("Au_Bez", 7 + timedelta_local)
     data_from_8_days = Funktionen.DataLoader.get_data("Au_Bez", 8 + timedelta_local)
+
+    if data is None:
+        return None
 
     ranking_dict = dict()
     table_list = list()
@@ -314,8 +320,6 @@ def generate_austria_report(timedelta_local: int) -> None:
         i += 1
     table_list.append(table)
 
-    date_objekt = datetime.now() - timedelta(days=timedelta_local)
-    str_date = date_objekt.strftime("%d.%m.%Y")
     if not path.exists(f"Reports/Österreich/Österreich-Report-{str_date}.txt"):
         with open(f"Reports/Österreich/Österreich-Report-{str_date}.txt", "a") as file:
             for table in table_list:

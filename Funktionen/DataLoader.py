@@ -78,3 +78,5 @@ def get_data(data_option: str, timedelta_days: int, region=None) -> Optional[dic
             with open(f"Daten/Austria/Austria-Bezirk/data-{str_date}.json", "r") as file:
                 data = json.loads(file.read())
             return data
+        else:
+            return None

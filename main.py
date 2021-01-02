@@ -1,5 +1,6 @@
 import Funktionen.DataLoader
 import Funktionen.TableGenerator
+from os import path
 
 if __name__ == "__main__":
     Funktionen.DataLoader.update_all_data()
