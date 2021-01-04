@@ -53,6 +53,8 @@ def generate_table_for_germany(timedelta_local: int) -> None:
 
     impf_data = Funktionen.DataLoader.get_data("Ger_Impf", 1)
     impf_data_yesterday = Funktionen.DataLoader.get_data("Ger_Impf", 2)
+    impf_data_from_7_days = Funktionen.DataLoader.get_data("Ger_Impf", 7)
+    impf_data_from_8_days = Funktionen.DataLoader.get_data("Ger_Impf", 8)
 
     count_by_landkreis, count_by_bundesland = group_by_bundesland(data_lk)
     count_by_landkreis_old, count_by_bundesland_old = group_by_bundesland(lk_data_from_7_days)
@@ -128,6 +130,8 @@ def generate_table_for_germany(timedelta_local: int) -> None:
 
         impfungen_ges = impf_data[german_bundesland_name]
         impfungen_neu = impf_data[german_bundesland_name] - impf_data_yesterday[german_bundesland_name]
+        impfungen_ges_old = impf_data_from_7_days[german_bundesland_name]
+        impfungen_neu_old = impf_data_from_7_days[german_bundesland_name] - impf_data_from_8_days[german_bundesland_name]
 
         table = BeautifulTable()
         table.columns.header = [german_bundesland_name, "Aktuell", "Vor 7 Tagen"]
@@ -138,8 +142,8 @@ def generate_table_for_germany(timedelta_local: int) -> None:
         table.rows.append(["Neuverstorbene zum Vortag", f"{all_new_deaths:,}", f"{all_new_deaths_old:,}"])
         table.rows.append(["Fälle in einer Woche", f"{cases_last_7_days:,}", f"{cases_last_7_days_old:,}"])
         table.rows.append(["Fälle pro 100k Einwohner / 7 Tage", f"{cases_per_100k:,}", f"{cases_per_100k_old:,}"])
-        table.rows.append(["Impfungen Gesamt", f"{impfungen_ges:,}", f""])
-        table.rows.append(["Impfungen Neu", f"{impfungen_neu:,}", f""])
+        table.rows.append(["Impfungen Gesamt", f"{impfungen_ges:,}", f"{impfungen_ges_old:,}"])
+        table.rows.append(["Impfungen Neu", f"{impfungen_neu:,}", f"{impfungen_neu_old:,}"])
 
         table_list.append(table)
         if not path.exists(f"Reports/Deutschland/Bundesland/{german_bundesland_name}"):
@@ -152,6 +156,8 @@ def generate_table_for_germany(timedelta_local: int) -> None:
 
     impfungen_ges = impf_data["Gesamt"]
     impfungen_neu = impf_data["Gesamt"] - impf_data_yesterday["Gesamt"]
+    impfungen_ges_old = impf_data_from_7_days["Gesamt"]
+    impfungen_neu_old = impf_data_from_7_days["Gesamt"] - impf_data_from_8_days["Gesamt"]
 
     table = BeautifulTable()
     table.columns.header = ["Deutschland", "Aktuell", "Vor 7 Tagen"]
@@ -161,8 +167,8 @@ def generate_table_for_germany(timedelta_local: int) -> None:
     table.rows.append(["Gesamtzahl der Verstorbenen", f"{all_deaths_ger:,}", f"{all_deaths_old_ger:,}"])
     table.rows.append(["Neuverstorbene zum Vortag", f"{all_new_deaths_ger:,}", f"{all_new_deaths_old_ger:,}"])
     table.rows.append(["Fälle in einer Woche / 7 Tage", f"{cases_last_7_days_ger:,}", f"{cases_last_7_days_old_ger:,}"])
-    table.rows.append(["Impfungen Gesamt", f"{impfungen_ges:,}", f""])
-    table.rows.append(["Impfungen Neu", f"{impfungen_neu:,}", f""])
+    table.rows.append(["Impfungen Gesamt", f"{impfungen_ges:,}", f"{impfungen_ges_old:,}"])
+    table.rows.append(["Impfungen Neu", f"{impfungen_neu:,}", f"{impfungen_neu_old:,}"])
     table.rows.append(
         [f"Wie viel Prozent sind Geimpft?({EWZ_ger=:,})", f"{round(impfungen_ges / EWZ_ger * 100, 2)}", f""])
 
