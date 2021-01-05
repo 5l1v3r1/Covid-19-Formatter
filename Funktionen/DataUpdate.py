@@ -43,7 +43,7 @@ def get_and_store_impf_data_from_rki(url: str) -> dict:
     date_object = datetime.now()
     str_date = date_object.strftime("%d.%m.%Y")
     yesterday_str_date = (date_object - timedelta(days=1)).strftime("%d.%m.%Y")
-    impf_data_table_name = (date_object - timedelta(days=1)).strftime("%d.%m.%y")
+    impf_data_table_name = f"Impfungen_bis_einschl_{(date_object - timedelta(days=1)).strftime('%d.%m.%y')}"
 
     response = requests.get(url)
 
