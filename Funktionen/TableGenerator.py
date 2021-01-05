@@ -7,23 +7,29 @@ from beautifultable import BeautifulTable
 import Funktionen.DataLoader
 
 
-def german_landkreise_with_zero_infections_deaths(timedelta=0) -> str:
+def german_landkreise_with_zero_infections_deaths_and_lk_over_200(timedelta=0) -> Tuple[str, str]:
     german_landkreis_data = Funktionen.DataLoader.get_data("Ger_LK_All", 0 + timedelta)
     german_landkreis_data_from_yesterday = Funktionen.DataLoader.get_data("Ger_LK_All", 1 + timedelta)
 
     i = 0
     landkreise = list()
+    landkreise_inzidenz = list()
 
     for data in german_landkreis_data:
         new_infections = data['attributes']['cases'] - german_landkreis_data_from_yesterday[i]['attributes']['cases']
         new_deaths = data['attributes']['deaths'] - german_landkreis_data_from_yesterday[i]['attributes']['deaths']
+        seven_days_inzidenz = data['attributes']['cases7_per_100k']
 
         if new_infections == 0 and new_deaths == 0:
             landkreise.append(data["attributes"]["county"])
+        if seven_days_inzidenz >= 200:
+            landkreise_inzidenz.append(data["attributes"]["county"])
 
         i += 1
 
-    return f"Folgende Landkreise melden keine Neuinfektionen und keine Neuverstorbenden: {', '.join(landkreise)} | Das sind {len(landkreise)} von {len(german_landkreis_data)} ({round(len(landkreise)/len(german_landkreis_data)*100, 2)}%)"
+    landkreis_str = f"Folgende Landkreise melden keine Neuinfektionen und keine Neuverstorbenden: {', '.join(landkreise)} | Das sind {len(landkreise)} von {len(german_landkreis_data)} ({round(len(landkreise)/len(german_landkreis_data)*100, 2)}%)"
+    landkreise_inzidenz_str = f"Folgende Landkreise melden einen höheren 7 Tage Inzidenzwert als 200: {', '.join(landkreise_inzidenz)} | Das sind {len(landkreise_inzidenz)} von {len(german_landkreis_data)} ({round(len(landkreise_inzidenz)/len(german_landkreis_data)*100, 2)}%)"
+    return landkreis_str, landkreise_inzidenz_str
 
 
 def group_by_bundesland(german_landkreis_data: list) -> Tuple[int, dict]:
@@ -182,7 +188,11 @@ def generate_table_for_germany(timedelta_local: int) -> None:
         i += 1
     table_list.append(table)
 
-    table_list.append(german_landkreise_with_zero_infections_deaths())
+    lk_zero_deaths_and_infektion_str, lk_over_200 = german_landkreise_with_zero_infections_deaths_and_lk_over_200()
+
+    table_list.append(lk_zero_deaths_and_infektion_str)
+
+    table_list.append(lk_over_200)
 
     if not path.exists(f"Reports/Deutschland/Deutschland/Deutschland-Report-{str_date}.txt"):
         with open(f"Reports/Deutschland/Deutschland/Deutschland-Report-{str_date}.txt", "a") as file:
