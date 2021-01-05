@@ -12,8 +12,10 @@ def german_landkreise_with_zero_infections_deaths_and_lk_over_200(timedelta=0) -
     german_landkreis_data_from_yesterday = Funktionen.DataLoader.get_data("Ger_LK_All", 1 + timedelta)
 
     i = 0
-    landkreise = list()
-    landkreise_inzidenz = list()
+    landkreise = dict()
+    landkreise_inzidenz = dict()
+    landkreise_all = list()
+    landkreise_inzidenz_all = list()
 
     for data in german_landkreis_data:
         new_infections = data['attributes']['cases'] - german_landkreis_data_from_yesterday[i]['attributes']['cases']
@@ -21,14 +23,40 @@ def german_landkreise_with_zero_infections_deaths_and_lk_over_200(timedelta=0) -
         seven_days_inzidenz = data['attributes']['cases7_per_100k']
 
         if new_infections == 0 and new_deaths == 0:
-            landkreise.append(data["attributes"]["county"])
+            if data['attributes']['BL'] in landkreise.keys():
+                landkreise[data['attributes']['BL']].append(data["attributes"]["county"])
+                landkreise_all.append(data["attributes"]["county"])
+            else:
+                landkreise[data['attributes']['BL']] = list()
+                landkreise[data['attributes']['BL']].append(data["attributes"]["county"])
+                landkreise_all.append(data["attributes"]["county"])
+
         if seven_days_inzidenz >= 200:
-            landkreise_inzidenz.append(data["attributes"]["county"])
+            if data['attributes']['BL'] in landkreise_inzidenz.keys():
+                landkreise_inzidenz[data['attributes']['BL']].append(data["attributes"]["county"])
+                landkreise_inzidenz_all.append(data["attributes"]["county"])
+            else:
+                landkreise_inzidenz[data['attributes']['BL']] = list()
+                landkreise_inzidenz[data['attributes']['BL']].append(data["attributes"]["county"])
+                landkreise_inzidenz_all.append(data["attributes"]["county"])
+
 
         i += 1
+    landkreis_out = list()
+    landkreis_out.append("Folgende Landkreise melden keine Neuinfektionen und keine Neuverstorbenden:")
+    for bl in landkreise.keys():
+        landkreis_out.append(f"**{bl}**: {', '.join(sorted(landkreise[bl], key=lambda str: str[3:]))}")
+    landkreis_out.append(f"Das sind {len(landkreise_all)} von {len(german_landkreis_data)} ({round(len(landkreise_all)/len(german_landkreis_data)*100, 2)}%)")
 
-    landkreis_str = f"Folgende Landkreise melden keine Neuinfektionen und keine Neuverstorbenden: {', '.join(landkreise)} | Das sind {len(landkreise)} von {len(german_landkreis_data)} ({round(len(landkreise)/len(german_landkreis_data)*100, 2)}%)"
-    landkreise_inzidenz_str = f"Folgende Landkreise melden einen höheren 7 Tage Inzidenzwert als 200: {', '.join(landkreise_inzidenz)} | Das sind {len(landkreise_inzidenz)} von {len(german_landkreis_data)} ({round(len(landkreise_inzidenz)/len(german_landkreis_data)*100, 2)}%)"
+    landkreis_inzidenz_out = list()
+    landkreis_inzidenz_out.append("Folgende Landkreise melden einen höheren 7 Tage Inzidenzwert als 200:")
+    for bl in landkreise_inzidenz.keys():
+
+        landkreis_inzidenz_out.append(f"**{bl}**: {', '.join(sorted(landkreise_inzidenz[bl], key=lambda str: str[3:]))}")
+    landkreis_inzidenz_out.append(f"Das sind {len(landkreise_inzidenz_all)} von {len(german_landkreis_data)} ({round(len(landkreise_inzidenz_all) / len(german_landkreis_data) * 100, 2)}%)")
+
+    landkreis_str = "\n".join(landkreis_out)
+    landkreise_inzidenz_str = "\n".join(landkreis_inzidenz_out)
     return landkreis_str, landkreise_inzidenz_str
 
 

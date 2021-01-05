@@ -408,7 +408,28 @@
 |        16. Sachsen         | 298.75  |
 +----------------------------+---------+
 
-Folgende Landkreise melden keine Neuinfektionen und keine Neuverstorbenden: LK Stormarn, SK Wolfsburg, LK Gifhorn, LK Northeim, LK Peine, LK Diepholz, LK Hameln-Pyrmont, LK Lüchow-Dannenberg, LK Uelzen, LK Aurich, LK Wittmund, LK Paderborn, SK Hamm, LK Birkenfeld, LK Donnersbergkreis, LK Eichstätt, SK Amberg, LK Neumarkt i.d.OPf., LK Nürnberger Land, LK Haßberge, SK Kempten, LK Oberallgäu, LK Neunkirchen, SK Cottbus, LK Havelland, LK Ostprignitz-Ruppin, LK Potsdam-Mittelmark, LK Prignitz, LK Teltow-Fläming, LK Börde, LK Burgenlandkreis, LK Saalekreis, LK Stendal, SK Weimar, SK Eisenach, LK Wartburgkreis, SK Berlin Charlottenburg-Wilmersdorf | Das sind 37 von 412 (8.98%)
+Folgende Landkreise melden keine Neuinfektionen und keine Neuverstorbenden:
+**Schleswig-Holstein**: LK Stormarn
+**Niedersachsen**: LK Aurich, LK Diepholz, LK Gifhorn, LK Hameln-Pyrmont, LK Lüchow-Dannenberg, LK Northeim, LK Peine, LK Uelzen, LK Wittmund, SK Wolfsburg
+**Nordrhein-Westfalen**: SK Hamm, LK Paderborn
+**Rheinland-Pfalz**: LK Birkenfeld, LK Donnersbergkreis
+**Bayern**: SK Amberg, LK Eichstätt, LK Haßberge, SK Kempten, LK Neumarkt i.d.OPf., LK Nürnberger Land, LK Oberallgäu
+**Saarland**: LK Neunkirchen
+**Brandenburg**: SK Cottbus, LK Havelland, LK Ostprignitz-Ruppin, LK Potsdam-Mittelmark, LK Prignitz, LK Teltow-Fläming
+**Sachsen-Anhalt**: LK Burgenlandkreis, LK Börde, LK Saalekreis, LK Stendal
+**Thüringen**: SK Eisenach, LK Wartburgkreis, SK Weimar
+**Berlin**: SK Berlin Charlottenburg-Wilmersdorf
+Das sind 37 von 412 (8.98%)
 
-Folgende Landkreise einen höheren 7 Tage Inzidenzwert als 200: SK Herne, LK Gießen, LK Limburg-Weilburg, SK Speyer, SK Pforzheim, LK Enzkreis, LK Tuttlingen, LK Berchtesgadener Land, SK Landshut, SK Passau, LK Deggendorf, LK Freyung-Grafenau, LK Passau, LK Regen, LK Rottal-Inn, LK Straubing-Bogen, LK Dingolfing-Landau, SK Weiden i.d.OPf., LK Tirschenreuth, SK Bayreuth, SK Coburg, SK Hof, LK Bayreuth, LK Coburg, LK Kulmbach, LK Wunsiedel i.Fichtelgebirge, SK Fürth, SK Nürnberg, LK Roth, LK Rhön-Grabfeld, LK Haßberge, SK Frankfurt (Oder), SK Potsdam, LK Elbe-Elster, LK Oberspreewald-Lausitz, SK Chemnitz, LK Erzgebirgskreis, LK Mittelsachsen, LK Vogtlandkreis, LK Zwickau, SK Dresden, LK Bautzen, LK Görlitz, LK Meißen, LK Sächsische Schweiz-Osterzgebirge, LK Leipzig, LK Nordsachsen, SK Dessau-Roßlau, SK Halle, LK Mansfeld-Südharz, LK Saalekreis, LK Salzlandkreis, SK Suhl, SK Eisenach, LK Eichsfeld, LK Wartburgkreis, LK Unstrut-Hainich-Kreis, LK Schmalkalden-Meiningen, LK Sömmerda, LK Hildburghausen, LK Ilm-Kreis, LK Weimarer Land, LK Sonneberg, LK Saalfeld-Rudolstadt, LK Saale-Holzland-Kreis, LK Saale-Orla-Kreis, LK Greiz, LK Altenburger Land | Das sind 68 von 412 (16.5%)
+Folgende Landkreise melden einen höheren 7 Tage Inzidenzwert als 200:
+**Nordrhein-Westfalen**: SK Herne
+**Hessen**: LK Gießen, LK Limburg-Weilburg
+**Rheinland-Pfalz**: SK Speyer
+**Baden-Württemberg**: LK Enzkreis, SK Pforzheim, LK Tuttlingen
+**Bayern**: SK Bayreuth, LK Bayreuth, LK Berchtesgadener Land, SK Coburg, LK Coburg, LK Deggendorf, LK Dingolfing-Landau, LK Freyung-Grafenau, SK Fürth, LK Haßberge, SK Hof, LK Kulmbach, SK Landshut, SK Nürnberg, SK Passau, LK Passau, LK Regen, LK Rhön-Grabfeld, LK Roth, LK Rottal-Inn, LK Straubing-Bogen, LK Tirschenreuth, SK Weiden i.d.OPf., LK Wunsiedel i.Fichtelgebirge
+**Brandenburg**: LK Elbe-Elster, SK Frankfurt (Oder), LK Oberspreewald-Lausitz, SK Potsdam
+**Sachsen**: LK Bautzen, SK Chemnitz, SK Dresden, LK Erzgebirgskreis, LK Görlitz, LK Leipzig, LK Meißen, LK Mittelsachsen, LK Nordsachsen, LK Sächsische Schweiz-Osterzgebirge, LK Vogtlandkreis, LK Zwickau
+**Sachsen-Anhalt**: SK Dessau-Roßlau, SK Halle, LK Mansfeld-Südharz, LK Saalekreis, LK Salzlandkreis
+**Thüringen**: LK Altenburger Land, LK Eichsfeld, SK Eisenach, LK Greiz, LK Hildburghausen, LK Ilm-Kreis, LK Saale-Holzland-Kreis, LK Saale-Orla-Kreis, LK Saalfeld-Rudolstadt, LK Schmalkalden-Meiningen, LK Sonneberg, SK Suhl, LK Sömmerda, LK Unstrut-Hainich-Kreis, LK Wartburgkreis, LK Weimarer Land
+Das sind 68 von 412 (16.5%)
 
