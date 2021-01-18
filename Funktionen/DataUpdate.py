@@ -43,7 +43,7 @@ def get_and_store_impf_data_from_rki(url: str) -> dict:
     date_object = datetime.now()
     str_date = date_object.strftime("%d.%m.%Y")
     yesterday_str_date = (date_object - timedelta(days=1)).strftime("%d.%m.%Y")
-    impf_data_table_name = f"Impfungen_bis_einschl_{(date_object - timedelta(days=1)).strftime('%d.%m.%y')}"
+    impf_data_table_name = f"Gesamt_bis_einschl_{(date_object - timedelta(days=1)).strftime('%d.%m.%y')}"
 
     response = requests.get(url)
 
@@ -56,9 +56,10 @@ def get_and_store_impf_data_from_rki(url: str) -> dict:
                 file.write(response.content)
 
             data = pd.read_excel(response.content, sheet_name=impf_data_table_name)
-            for i in range(0, 17):
-                temp_data = data.loc[[i]]
-                # Build a Dict with "Bundeslandname" as key and number of "geimpften" persons as value.
-                helper[temp_data["Bundesland"].values[0].replace("*", "")] = int(temp_data["Impfungen kumulativ"].values[0])
+            for i in range(0, 19):
+                if i >= 2:
+                    temp_data = data.loc[[i]]
+                    # Build a Dict with "Bundeslandname" as key and number of "geimpften" persons as value.
+                    helper[temp_data["Bundesland"].values[0].replace("*", "")] = int(temp_data["Erstimpfung"].values[0])
 
             return helper
