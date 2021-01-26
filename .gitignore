@@ -135,4 +135,6 @@ copy_österreich.py
 prediction_lineare.py
 example.csv
 build_example_csv.py
-prediction_logisic.py
+prediction_lstm.py
+/month-covid.csv
+/example2.csv
