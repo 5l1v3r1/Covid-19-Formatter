@@ -132,3 +132,7 @@ dmypy.json
 
 copy_germany_report.py
 copy_österreich.py
+prediction_lineare.py
+example.csv
+build_example_csv.py
+prediction_logisic.py
