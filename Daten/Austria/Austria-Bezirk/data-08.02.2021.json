@@ -1,1 +1,182 @@
-[{"attributes": {"OBJECTID": 10, "bundesland": "Burgenland", "datum": 1612652400000, "infizierte": 11182, "zuwachs": 15, "zuwachs_prozent": 0.13432434852691, "infizierte_pro_ew": 3810.75066539892, "verstorbene": 215, "einwohner": 293433, "bundeslandid": 1, "Shape__Area": 8697258373.31445, "Shape__Length": 1077115.12035253, "genesene": 10445, "positiv": 522, "positiv_pro_ew": 177.89410189038, "GlobalID": "ed2f3dbf-8b87-498b-9172-a07fe8c41586"}}, {"attributes": {"OBJECTID": 11, "bundesland": "K\u00e4rnten", "datum": 1612652400000, "infizierte": 26696, "zuwachs": 68, "zuwachs_prozent": 0.255370286916028, "infizierte_pro_ew": 4759.16276101323, "verstorbene": 666, "einwohner": 560939, "bundeslandid": 2, "Shape__Area": 20336332623.0337, "Shape__Length": 977379.461894458, "genesene": 24310, "positiv": 1720, "positiv_pro_ew": 306.628706508194, "GlobalID": "f95c0317-0b84-4b01-8064-944c9c158bff"}}, {"attributes": {"OBJECTID": 12, "bundesland": "Nieder\u00f6sterreich", "datum": 1612652400000, "infizierte": 65015, "zuwachs": 178, "zuwachs_prozent": 0.274534602156176, "infizierte_pro_ew": 3875.61086399029, "verstorbene": 1168, "einwohner": 1677542, "bundeslandid": 3, "Shape__Area": 43301138836.9248, "Shape__Length": 1705667.5782778, "genesene": 60257, "positiv": 3590, "positiv_pro_ew": 214.003583814891, "GlobalID": "682e8ca6-3521-4a63-9f23-e96e671db270"}}, {"attributes": {"OBJECTID": 13, "bundesland": "Ober\u00f6sterreich", "datum": 1612652400000, "infizierte": 81622, "zuwachs": 136, "zuwachs_prozent": 0.166899835554574, "infizierte_pro_ew": 5507.20432900725, "verstorbene": 1363, "einwohner": 1482095, "bundeslandid": 4, "Shape__Area": 26893322288.5576, "Shape__Length": 1271624.57722471, "genesene": 77428, "positiv": 2831, "positiv_pro_ew": 191.013396577142, "GlobalID": "c9670be0-a75d-472c-bc3b-de2f73216e7e"}}, {"attributes": {"OBJECTID": 14, "bundesland": "Salzburg", "datum": 1612652400000, "infizierte": 35400, "zuwachs": 95, "zuwachs_prozent": 0.269083699192749, "infizierte_pro_ew": 6375.83953056531, "verstorbene": 464, "einwohner": 555221, "bundeslandid": 5, "Shape__Area": 15614436464.1938, "Shape__Length": 1125309.2729101, "genesene": 33346, "positiv": 1590, "positiv_pro_ew": 286.372453491493, "GlobalID": "454892b7-ac0f-4511-b5e4-0ca94b12eb17"}}, {"attributes": {"OBJECTID": 15, "bundesland": "Steiermark", "datum": 1612652400000, "infizierte": 50735, "zuwachs": 142, "zuwachs_prozent": 0.280671239104224, "infizierte_pro_ew": 4081.48653475478, "verstorbene": 1639, "einwohner": 1243052, "bundeslandid": 6, "Shape__Area": 35629508900, "Shape__Length": 1329661.36444529, "genesene": 46665, "positiv": 2431, "positiv_pro_ew": 195.567039834214, "GlobalID": "e2f15ede-0245-4759-85f2-ca5da2fdabe8"}}, {"attributes": {"OBJECTID": 16, "bundesland": "Tirol", "datum": 1612652400000, "infizierte": 45282, "zuwachs": 24, "zuwachs_prozent": 0.0530292986875249, "infizierte_pro_ew": 5999.96024936896, "verstorbene": 595, "einwohner": 754705, "bundeslandid": 7, "Shape__Area": 27379411226.667, "Shape__Length": 1503888.04340979, "genesene": 43454, "positiv": 1233, "positiv_pro_ew": 163.375093579611, "GlobalID": "e924e2f6-751f-4498-b7c4-187c424f0064"}}, {"attributes": {"OBJECTID": 17, "bundesland": "Vorarlberg", "datum": 1612652400000, "infizierte": 22333, "zuwachs": 32, "zuwachs_prozent": 0.143491323259047, "infizierte_pro_ew": 5664.00454479745, "verstorbene": 264, "einwohner": 394297, "bundeslandid": 8, "Shape__Area": 5644897785.93994, "Shape__Length": 483374.432823145, "genesene": 21450, "positiv": 619, "positiv_pro_ew": 156.988260118642, "GlobalID": "44e70a4b-6f57-4c93-8bef-6cf30f1ca0d3"}}, {"attributes": {"OBJECTID": 18, "bundesland": "Wien", "datum": 1612652400000, "infizierte": 83187, "zuwachs": 175, "zuwachs_prozent": 0.210812894521274, "infizierte_pro_ew": 4384.05241447785, "verstorbene": 1566, "einwohner": 1897491, "bundeslandid": 9, "Shape__Area": 933432125.076172, "Shape__Length": 199043.368575406, "genesene": 75396, "positiv": 6225, "positiv_pro_ew": 328.064797145283, "GlobalID": "7ceb7907-35ac-44d4-b1cf-b276475d7478"}}]
+[
+  {
+    "attributes": {
+      "OBJECTID": 10,
+      "bundesland": "Burgenland",
+      "datum": 1612652400000,
+      "infizierte": 11182,
+      "zuwachs": 15,
+      "zuwachs_prozent": 0.13432434852691,
+      "infizierte_pro_ew": 3810.75066539892,
+      "verstorbene": 215,
+      "einwohner": 293433,
+      "bundeslandid": 1,
+      "Shape__Area": 8697258373.31445,
+      "Shape__Length": 1077115.12035253,
+      "genesene": 10445,
+      "positiv": 522,
+      "positiv_pro_ew": 177.89410189038,
+      "GlobalID": "ed2f3dbf-8b87-498b-9172-a07fe8c41586"
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 11,
+      "bundesland": "K\u00e4rnten",
+      "datum": 1612652400000,
+      "infizierte": 26696,
+      "zuwachs": 68,
+      "zuwachs_prozent": 0.255370286916028,
+      "infizierte_pro_ew": 4759.16276101323,
+      "verstorbene": 666,
+      "einwohner": 560939,
+      "bundeslandid": 2,
+      "Shape__Area": 20336332623.0337,
+      "Shape__Length": 977379.461894458,
+      "genesene": 24310,
+      "positiv": 1720,
+      "positiv_pro_ew": 306.628706508194,
+      "GlobalID": "f95c0317-0b84-4b01-8064-944c9c158bff"
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 12,
+      "bundesland": "Nieder\u00f6sterreich",
+      "datum": 1612652400000,
+      "infizierte": 65015,
+      "zuwachs": 178,
+      "zuwachs_prozent": 0.274534602156176,
+      "infizierte_pro_ew": 3875.61086399029,
+      "verstorbene": 1168,
+      "einwohner": 1677542,
+      "bundeslandid": 3,
+      "Shape__Area": 43301138836.9248,
+      "Shape__Length": 1705667.5782778,
+      "genesene": 60257,
+      "positiv": 3590,
+      "positiv_pro_ew": 214.003583814891,
+      "GlobalID": "682e8ca6-3521-4a63-9f23-e96e671db270"
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 13,
+      "bundesland": "Ober\u00f6sterreich",
+      "datum": 1612652400000,
+      "infizierte": 81622,
+      "zuwachs": 136,
+      "zuwachs_prozent": 0.166899835554574,
+      "infizierte_pro_ew": 5507.20432900725,
+      "verstorbene": 1363,
+      "einwohner": 1482095,
+      "bundeslandid": 4,
+      "Shape__Area": 26893322288.5576,
+      "Shape__Length": 1271624.57722471,
+      "genesene": 77428,
+      "positiv": 2831,
+      "positiv_pro_ew": 191.013396577142,
+      "GlobalID": "c9670be0-a75d-472c-bc3b-de2f73216e7e"
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 14,
+      "bundesland": "Salzburg",
+      "datum": 1612652400000,
+      "infizierte": 35400,
+      "zuwachs": 95,
+      "zuwachs_prozent": 0.269083699192749,
+      "infizierte_pro_ew": 6375.83953056531,
+      "verstorbene": 464,
+      "einwohner": 555221,
+      "bundeslandid": 5,
+      "Shape__Area": 15614436464.1938,
+      "Shape__Length": 1125309.2729101,
+      "genesene": 33346,
+      "positiv": 1590,
+      "positiv_pro_ew": 286.372453491493,
+      "GlobalID": "454892b7-ac0f-4511-b5e4-0ca94b12eb17"
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 15,
+      "bundesland": "Steiermark",
+      "datum": 1612652400000,
+      "infizierte": 50735,
+      "zuwachs": 142,
+      "zuwachs_prozent": 0.280671239104224,
+      "infizierte_pro_ew": 4081.48653475478,
+      "verstorbene": 1639,
+      "einwohner": 1243052,
+      "bundeslandid": 6,
+      "Shape__Area": 35629508900,
+      "Shape__Length": 1329661.36444529,
+      "genesene": 46665,
+      "positiv": 2431,
+      "positiv_pro_ew": 195.567039834214,
+      "GlobalID": "e2f15ede-0245-4759-85f2-ca5da2fdabe8"
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 16,
+      "bundesland": "Tirol",
+      "datum": 1612652400000,
+      "infizierte": 45282,
+      "zuwachs": 24,
+      "zuwachs_prozent": 0.0530292986875249,
+      "infizierte_pro_ew": 5999.96024936896,
+      "verstorbene": 595,
+      "einwohner": 754705,
+      "bundeslandid": 7,
+      "Shape__Area": 27379411226.667,
+      "Shape__Length": 1503888.04340979,
+      "genesene": 43454,
+      "positiv": 1233,
+      "positiv_pro_ew": 163.375093579611,
+      "GlobalID": "e924e2f6-751f-4498-b7c4-187c424f0064"
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 17,
+      "bundesland": "Vorarlberg",
+      "datum": 1612652400000,
+      "infizierte": 22333,
+      "zuwachs": 32,
+      "zuwachs_prozent": 0.143491323259047,
+      "infizierte_pro_ew": 5664.00454479745,
+      "verstorbene": 264,
+      "einwohner": 394297,
+      "bundeslandid": 8,
+      "Shape__Area": 5644897785.93994,
+      "Shape__Length": 483374.432823145,
+      "genesene": 21450,
+      "positiv": 619,
+      "positiv_pro_ew": 156.988260118642,
+      "GlobalID": "44e70a4b-6f57-4c93-8bef-6cf30f1ca0d3"
+    }
+  },
+  {
+    "attributes": {
+      "OBJECTID": 18,
+      "bundesland": "Wien",
+      "datum": 1612652400000,
+      "infizierte": 83187,
+      "zuwachs": 175,
+      "zuwachs_prozent": 0.210812894521274,
+      "infizierte_pro_ew": 4384.05241447785,
+      "verstorbene": 1566,
+      "einwohner": 1897491,
+      "bundeslandid": 9,
+      "Shape__Area": 933432125.076172,
+      "Shape__Length": 199043.368575406,
+      "genesene": 75396,
+      "positiv": 6225,
+      "positiv_pro_ew": 328.064797145283,
+      "GlobalID": "7ceb7907-35ac-44d4-b1cf-b276475d7478"
+    }
+  }
+]
